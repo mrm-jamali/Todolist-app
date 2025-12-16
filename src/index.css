@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* margin:0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 226, 225, 0.544);
+    font-family: 'YekanBakh', sans-serif;
+}
+input, textarea, select, button {
+  font-family: 'YekanBakh', sans-serif;
+}
+   /* border: 1px solid rgb(201, 198, 198); */

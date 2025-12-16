@@ -1,0 +1,104 @@
+
+.container {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(201, 198, 198);
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+margin-top: 15px;
+  height: 200px;  
+  overflow-y: auto; 
+
+
+  scrollbar-width: thin;
+  scrollbar-color: rgb(195, 154, 233) #f1f1f1;
+}
+
+
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: rgb(195, 154, 233);
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+}
+
+
+.workItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+   border: 1px solid  rgb(216, 216, 216);
+  gap: 10px;
+}
+
+
+.itemRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1; 
+}
+
+.workText {
+  margin: 0;
+  font-size: 14px;
+  flex-shrink: 1; 
+}
+
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(201, 198, 198);
+  flex-shrink: 0;
+}
+
+
+.delbtn {
+  padding: 6px 15px;
+  border: none;
+  background-color: rgb(195, 154, 233);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delbtn:hover {
+    background-color: rgb(45, 3, 42);
+    color:white;
+    transition: all 0.5s ease-in-out;
+}
+
+.cartbtn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delallbtn {
+  padding: 6px 15px;
+  border: none;
+  background-color: rgb(195, 154, 233);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delallbtn:hover {
+    background-color: rgb(45, 3, 42);
+    color:white;
+    transition: all 0.5s ease-in-out;
+}
